@@ -22,3 +22,44 @@ body {
   border-radius: 15px 15px 0 0;
   position: relative;
 }
+
+.clear {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.clear i {
+  font-size: 30px;
+  color: #fff;
+}
+.clear i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+#date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* ------------ content ------------ */
+.content {
+  width: 380px;
+  height: 350px;
+  max-height: 350px;
+  background-color: rgb(255, 235, 168);
+  overflow: auto;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.content ul {
+  padding: 0;
+  margin: 0;
+}
